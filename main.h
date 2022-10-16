@@ -30,4 +30,4 @@ char *print_c(va_list list);
 char *print_s(va_list list);
 char *print_i(va_list list);
 char *print_bin(va_list list);
-#endif /* #ifndef _HOLBERTON_H */
+#endif /* #ifndef _MAIN_H */
