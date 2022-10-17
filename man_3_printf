@@ -17,3 +17,35 @@ to standard out.
 _printf function prototype:
 
 int _printf(const char *format, ...)
+
+.SS Return value
+Upon  successful  return,  _printf returns the number of characters
+printed (excluding the null byte used to end output to strings).
+If error occurs, _printf will return a negative value.
+
+.SS Format of the format string
+The format string is a character string.The format string is composed of:
+ordinary character (not%) which are copied unchanced to the output string and
+conversion specifications, each of which results in fetching zero or more
+subsequent arguments.  Each conversion  specification  is  introduced  by  the
+character  %, and ends with a conversion specifier.  In between there may be
+(in this order) zero or more flags, an optional minimum field width,
+an optional precision and an optional length modifier.
+
+"%%" formats do not consume an argument, it will just print a single "%".
+
+.SS The conversion specifiers
+       The character % is followed by the following specifiers:
+
+       c If  no  l modifier is present, the int argument is converted to an
+       unsigned char, and the resulting character is written.
+       s If no l modifier is present: The const char * argument is expected to
+       be a pointer to an array of character type (pointer  to a string).
+       Characters from the array are written up to (but not including) a
+       terminating null byte ('\0'); if a precision is specified, no more than
+       the number specified are written.  If a precision is given, no
+       null  byte  need  be  present;  if the precision is not specified, or is
+       greater than the size of the array, the array must contain a
+       terminating null byte.
+       i The int argument is converted to signed decimal notation.
+       d The int argument is converted to signed decimal notation.
