@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <limits.h>
 
 int _printf(const char *format, ...);
 int _position(const char *s, int n);
