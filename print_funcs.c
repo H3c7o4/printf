@@ -80,12 +80,12 @@ char *print_i(va_list list)
 		}
 	if (digit != 0 || (len >= 0  && output[i - 1] >= '0'))
 	{
-		output[i] = digit + '0'; 
-		i++; 
+		output[i] = digit + '0';
+		i++;
 		len--;
 	}
 	divisor /= 10;
 	}
-	output[i] = '\0'
+	output[i] = '\0';
 		return (output);
 }
