@@ -6,10 +6,6 @@ _printf
 .SH SYNOPSIS
 #include "main.h"
 
-#include <stdio.h>
-
-#include <stdarg.h>
-
 .SH DESCRIPTION
 _printf produces output according to a format string. It will write output
 to standard out.
@@ -49,3 +45,36 @@ an optional precision and an optional length modifier.
        terminating null byte.
        i The int argument is converted to signed decimal notation.
        d The int argument is converted to signed decimal notation.
+
+.SS The flag characters
+       The character % is followed by zero or more of the following flags:
+       #      The value should be converted to an "alternate form".
+       ' '    (a space) A blank should be left before a positive number
+       (or empty string) produced by a signed conversion.
+       +      A sign (+ or -) should always be placed before a number produced
+       by a signed conversion.  By default a  sign  is used only for negative
+       numbers.  A + overrides a space if both are used.
+
+.SH EXAMPLES
+Use _printf to print a string with variables of different types
+
+#include "main.h"
+
+	  int main (void)
+
+           {
+
+                float dollars = 673.14, euros = 655.60;
+                char *CFA = "Central African CFA franc";
+
+                    printf("Converting euro and dollar into %s :\n\n1euro = %f %s\n1dollar = %f %s\n", CFA, euros, CFA, dollars, CFA);
+
+                                  return (0);
+  
+                                  }
+.SH SEE ALSO
+printf , scanf
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+ITOK Steve Hector - Camilo Araque Caro
