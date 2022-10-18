@@ -67,7 +67,7 @@ Use _printf to print a string with variables of different types
                 float dollars = 673.14, euros = 655.60;
                 char *CFA = "Central African CFA franc";
 
-                    printf("Converting euro and dollar into %s :\n\n1euro = %f %s\n1dollar = %f %s\n", CFA, euros, CFA, dollars, CFA);
+                    _printf("Converting euro and dollar into %s :\n\n1euro = %f %s\n1dollar = %f %s\n", CFA, euros, CFA, dollars, CFA);
 
                                   return (0);
   
