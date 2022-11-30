@@ -1,5 +1,5 @@
 # 0x10. C - printf
-## Description
+## Description :speech_balloon:
 This team project is part of the first year curriculum of Holberton School.
 _printf replicates the C standard library printf() function.
 What you should learn from this project:
@@ -11,12 +11,19 @@ What you should learn from this project:
 ## Prototype
 ```int _printf(const char *format, ...);```
 
-## Usage
+## Usage :running:
 * Prints a string to the standard output, according to a given format
 * All files were created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command ```gcc -Wall -Werror -Wextra -pedantic *.c```
 * Returns the number of characters in the output string on success, -1 otherwise
 * Call it this way: ```_printf("format string", arguments...)``` where ```format string``` can contain conversion specifiers and flags,
 along with regular characters
+
+## Return Value
+
+Upon successful return, `_printf` returns the number of characters printed
+(excluding the terminating null byte used to end output to strings). If an
+output error is encountered, the function returns `-1`.
+
 ## Examples
 * ```_printf("Hello, Holberton\n")``` *prints "Hello, Holberton", followed by a new line*
 * ```_printf("%s", "Hello")``` *prints "Hello"*
@@ -78,7 +85,7 @@ These are all the tasks of this project, the ones that are completed link to the
 
 
 ---
-### Authors
+### Authors :black_nib:
 * **Hector Steve** - [hectorvladitok@gmail.com](https://github.com/H3c7o4)
 * **CYNTHIA OSAGIE** - [cynthiaadesuwaosagie@gmail.com](https://github.com/CynthiaAdesuwa)
 
