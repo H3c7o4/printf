@@ -10,6 +10,7 @@ What you should learn from this project:
 ---
 ## Prototype
 ```int _printf(const char *format, ...);```
+
 ## Usage
 * Prints a string to the standard output, according to a given format
 * All files were created and compiled on Ubuntu 14.04.4 LTS using GCC 4.8.4 with the command ```gcc -Wall -Werror -Wextra -pedantic *.c```
@@ -80,3 +81,22 @@ These are all the tasks of this project, the ones that are completed link to the
 ### Authors
 * **Hector Steve** - [hectorvladitok@gmail.com](https://github.com/H3c7o4)
 * **CYNTHIA OSAGIE** - [cynthiaadesuwaosagie@gmail.com](https://github.com/CynthiaAdesuwa)
+
+## License :lock:
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## Acknowledgements :pray:
+
+The `_printf` function emulates functionality of the C standard library
+function `printf`. This README borrows from the Linux man page
+[printf(3)](https://linux.die.net/man/3/printf).
+
+This program was written as part of the curriculum for Holberton School.
+Holberton School is a campus-based full-stack software engineering program
+that prepares students for careers in the tech industry using project-based
+peer learning. For more information, visit [this link](https://www.holbertonschool.com/).
+
+<p align="center">
+  <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
+</p>
