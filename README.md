@@ -98,5 +98,5 @@ that prepares students for careers in the tech industry using project-based
 peer learning. For more information, visit [this link](https://www.holbertonschool.com/).
 
 <p align="center">
-  <img src="https://github.com/H3c7o4/printf/blob/master/images/hol.png" alt="Holberton School logo">
+  <img align="Center" alt="Coded lock" width="100px" src="https://github.com/H3c7o4/printf/blob/master/images/hol.png" alt="Holberton School logo">
 </p>
